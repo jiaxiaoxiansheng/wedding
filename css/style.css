@@ -1,0 +1,572 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+	height: 80px;
+}
+.nav-c{
+	position: relative;
+	height: 80px;
+	width: 1200px;
+	margin: 0 auto;
+	background: url(../img/home/logo.png) no-repeat center;
+	background-position: 60px 15px;
+}
+.nav .nav-c .num{
+	position: absolute;
+	left: 110px;
+	bottom: 14px;
+}
+.nav .nav-c .nav-ul{
+	position: absolute;
+	right:0;
+	top: 0;
+}
+.nav-c .nav-ul .nav-items{
+	position: relative;
+	float: left;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 16px;
+	color: #666666;
+	margin-left: 80px;
+}
+.nav-ul .nav-items .nav-a{
+	color: #666666;
+}
+.nav-c .nav-ul .nav-items.first{
+	color: #1d1d1d;
+	font-weight: bolder;
+}
+.line{
+	display: none;
+	position: absolute;
+	left: 8px;
+	bottom: 25px;
+	width: 4em;
+	height: 1px;
+	background-color: #b9ab77;
+}
+.nav-ul .nav-items:hover{
+	font-weight: bolder;
+}
+.nav-ul .nav-items:hover .line{
+	display: block;
+	color: #b9ab77;
+}
+.nav-ul .nav-items.first .line{
+	display: block;
+}
+/*中间banner图片*/
+.ban{
+	position: relative;
+}
+.ban .ban-img{
+	width: 100%;
+}
+.ban-c{
+	/*height: 700px;*/
+	width: 1200px;
+	margin: 0 auto;
+}
+.ban .left{
+	position: absolute;
+	left: 140px;
+	top: 315px;
+	width: 50px;
+	height: 80px;
+	background: url(../img/home/arrow-left.png) no-repeat center;
+	background-color: #d4d3d7;
+}
+.ban .right{
+	position: absolute;
+	right: 140px;
+	top: 315px;
+	width: 50px;
+	height: 80px;
+	background: url(../img/home/arrow-right.png) no-repeat center;
+	background-color: #d4d3d7;	
+}
+.ban .left:hover{
+	background-color: #B9AB77;
+}
+.ban .right:hover{
+	background-color: #B9AB77;
+}
+.ban .bot1{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	width: 20px;
+	height: 20px;
+	background: url(../img/home/big.png) no-repeat center;
+	cursor: pointer;
+}
+.ban .bot2{
+	position: absolute;
+	top: 90%;
+	left: 52%;
+	width: 20px;
+	height: 20px;
+	background: url(../img/home/small.png) no-repeat center;
+	cursor: pointer;
+}
+.ban .bot{
+	display: none;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 10px;
+	height: 10px;
+	background: url(../img/home/white.png) no-repeat center;
+}
+.ban .bot1 .bot{
+	display: block;
+}
+.ban .bot2:hover{
+	background: url(../img/home/big.png) no-repeat center;
+}
+.ban .bot2:hover .bot{
+	display: block;
+}
+/*婚礼*/
+.contact .wed{
+	position: relative;
+	height: 670px;
+	width: 1200px;
+	margin: 0 auto;
+}
+/*公共标题样式*/
+.text{
+	display: block;
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 26px;
+	color: #444444;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.eng{
+	display: block;
+	width: 200px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 16px;
+	color: #c1c1c1;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 3px;
+}
+.contact .wed .wed-ul{
+	width: 570px;
+	margin: 0 auto;
+	margin-left: 350px;
+}
+.wed .wed-ul .wed-items{
+	position: relative;
+	width: 142px;
+	height: 40px;
+	float: left;
+	margin-top: 80px;
+	color: #4d4d4d;
+	font-weight: 16px;
+	cursor: pointer;
+}
+.wed-ul .wed-items.first{
+	color: #b9ab77;
+}
+.wed-ul .wed-items .wed-line{
+	display: none;
+	position: absolute;
+	left: 35px;
+	bottom: 8px;
+	height: 5px;
+	width: 5px;
+	background-color: #b9ab77;
+	border-radius: 50%;
+}
+.wed-ul .wed-items.first .wed-line{
+	display: block;
+}
+.wed-ul .wed-items:hover .wed-line{
+	display: block;
+}
+.wed-ul .wed-items:hover{
+	color: #b9ab77;
+}
+.wed .pro{
+	float: left;
+	width: 270px;
+	height: 360px;
+	margin-right: 40px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.wed .wed-img4{
+	margin-right: 0;
+	background: url(../img/home/wedding-4.png) no-repeat center;
+}
+.wed .wed-img1{
+	background: url(../img/home/wedding-1.png) no-repeat center;
+}
+.wed .wed-img2{
+	background: url(../img/home/wedding-2.png) no-repeat center;
+}
+.wed .wed-img3{
+	background: url(../img/home/wedding-3.png) no-repeat center;
+}
+.wed .wed-img2:hover{
+	background: url(../img/home/light-2.png) no-repeat center;
+}
+.wed .wed-img3:hover{
+	background: url(../img/home/light-3.png) no-repeat center;
+}
+.wed .wed-img4:hover{
+	background: url(../img/home/light-4.png) no-repeat center;
+}
+.wed .pro .img-text{
+	display: block;
+	display: none;
+	width: 270px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.pro:hover .img-text.first{
+	margin-top: 110px;
+	margin-bottom: 40px;
+}
+ .pro:hover .img-text{
+	display: block;
+	width: 270px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.wed .wed-img1 .img-text{
+	display: block;
+}
+.wed .wed-img1 .img-text.first{
+	display: block;
+	margin-top: 110px;
+	margin-bottom: 40px;
+}
+.more{
+	position: absolute;
+	left: 525px;
+	bottom: 20px;
+	width: 150px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	content: #2d2d2d;
+	font-size: 12px;
+	background-color: #ffffff;
+}
+.more:hover{
+	border: 1px solid #BAAC79;
+	color: #BAAC79;
+}
+/*珠宝*/
+.contact .jew{
+	position: relative;
+	width: 1200px;
+	height: 370px;
+	margin: 0 auto;
+}
+.jew .pro{
+	position: relative;
+	float: left;
+	width: 270px;
+	height: 180px;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.jew .jew-img4{
+	margin-right: 0;
+	background: url(../img/home/acc-4.png) no-repeat center;
+}
+.jew .jew-img1{
+	background: url(../img/home/acc-1.png) no-repeat center;
+}
+/*图片上文字介绍*/
+.img1-text{
+	position: absolute;
+	display: none;
+	left: 0;
+	bottom: 0;
+	height: 60px;
+	width: 270px;
+	/*width: 200px;*/
+	background-color: #B1BCC0;
+	opacity: 0.7;
+}
+.line1{
+	display: block;
+	margin-top: 15px;
+	padding-left: 10px;
+	color: #f7f5f5;
+	width: 270px;
+	font-size: 14px;
+}
+.line2{
+	display: block;
+	/*margin-top: 15px;*/
+	padding-left: 10px;
+	color: #F3F3F3;
+	width: 270px;
+	font-size: 12px;
+}
+.jew .pro:hover .img1-text{
+	display: block;
+}
+.jew .pro .img1-text.active{
+	display: block;
+}
+.jew .jew-img2{
+	background: url(../img/home/acc-2.png) no-repeat center;
+}
+.jew .jew-img3{
+	background: url(../img/home/acc-3.png) no-repeat center;
+}
+.jew .more.last{
+	bottom: 20px;
+}
+/*活动*/
+.act{
+	position: relative;
+	height: 690px;
+	margin: 0 auto;
+}
+.act .act-img{
+	width: 100%;
+/*	height: 375px;
+	margin-top: 30px;
+	background: url(img/home/bg-2.png) no-repeat center;*/
+}
+.try{
+	position: absolute;
+	top: 30%;
+	left: 0;
+	width: 100%;
+	height: 335px;
+}
+.act .act-ul{
+/*	position: absolute;
+	top: 30%;
+	right: 18.5%;*/
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+.act .act-ul .act-items{
+	float: left;
+	width: 300px;
+	height: 335px;
+	background-color: #FFFFFF;
+}
+.act .act-ul .act-items.active{
+	background: url(../img/home/act.png) no-repeat center;
+}
+.act .act-ul .act-head{
+	width: 220px;
+	color: #8b8b8b;
+	font-size: 16px;
+	margin: 45px 30px 40px 30px;
+}
+.act .act-ul .act-blod{
+	width: 220px;
+	color: #444444;
+	font-size: 14px;
+	font-weight: bolder;
+	margin-bottom: 5px;
+	margin-left: 30px;
+}
+.act-art{
+	font-size: 13px;
+	color: #8b8b8b;
+	margin-left: 30px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.act-ul .active .act-head{
+	display: none;
+}
+.act-ul .active .act-blod{
+	display: none;
+}
+.act-ul .active .act-art{
+	display: none;
+}
+/*这个设置的权重要大于或者等于上面设置图片的权重*/
+.act .act-ul .active:hover{
+	background: url(../img/home/act-white.png) no-repeat center;
+}
+.act-ul .active:hover .act-head{
+	display: block;
+}
+.act-ul .active:hover .act-blod{
+	display: block;
+}
+.act-ul .active:hover .act-art{
+	display: block;
+}
+.act .more.last{
+	left: 46%;
+}
+/*设计师*/
+.des{
+	height: 1000px;
+	height: 710px;
+	background-color: #4d4d4d;
+}
+.des .des-c{
+	position: relative;
+	width: 1200px;
+	height: 710px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.des .des-c .des-a{
+	display: block;
+    width: 200px;
+	height: 30px;
+	color: #444444;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.des .des-c .des-a.bot{
+	margin-top: 3px;
+}
+.des .pro{
+	position: relative;
+	float: left;
+	width: 340px;
+	height: 505px;
+	margin-right: 40px;
+}
+.des .des-img1{
+	background: url(../img/home/des-1.png) no-repeat center;
+	background-position: 80px 60px;
+	margin-left: 40px
+	
+}
+.des .des-img2{
+	background: url(../img/home/des-2.png) no-repeat center;
+	background-position: 80px 60px;
+	margin-left: 20px;
+}
+.des .des-img3{
+	background: url(../img/home/des-3.png) no-repeat center;
+	background-position: 80px 60px;
+	margin-left: 20px;
+	margin-right: 0;
+}
+.des-c .text.des-te{
+	color: #f7f5f5;
+	margin-top: 70px;
+}
+.des-text{
+	position: absolute;
+	left: 60px;
+	top: 280px;
+	width: 220px;
+	height: 250px;
+}
+/*公共设计师修饰词*/
+.name{
+	display: block;
+	width: 220px;
+	text-align: center;
+	font-size: 26px;
+	color: #f7f5f5;
+}
+.title{
+	display: block;
+	width: 220px;
+	text-align: center;
+	font-size: 16px;
+	color: #c1c1c1;
+	margin-top: 5px;
+}
+.int{
+	display: block;
+	width: 220px;
+	text-align: center;
+	font-size: 16px;
+	color: #c1c1c1;
+	margin-top: 15px;
+}
+.lastmore{
+	display: block;
+	width: 220px;
+	text-align: center;
+	font-size: 16px;
+	color: #c1c1c1;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.lastline{
+	display: block;
+	width: 100px;
+	height: 1px;
+	background-color: #c1c1c1;
+	margin: 0 auto;
+}
+.des-c .pro:hover .lastmore{
+	color: #BAAC79;
+}
+.des-c .pro:hover .lastline{
+	background-color: #BAAC79;
+}
+/*底部公共样式*/
+.foot-c{
+	position: relative;
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.foot .foot-c .foot-id1{
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 400px;
+	font-size: 12px;
+	color: #323232;
+}
+.foot .foot-c .foot-id2{
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	width: 400px;
+	font-size: 12px;
+	color: #323232;
+}
+.foot .foot-c .foot-last{
+	float: right;
+	height: 100px;
+	width: 340px;
+	line-height: 100px;
+}
+.foot-c .foot-last .foot-items{
+	margin-right: 40px;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #323232;
+}
+.foot-c .foot-last .foot-items.mr0{
+	margin-right: 0px;
+}

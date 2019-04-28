@@ -1,0 +1,345 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.nav{
+	height: 80px;
+}
+.nav-c{
+	position: relative;
+	height: 80px;
+	width: 1200px;
+	margin: 0 auto;
+	background: url(../../../img/home/logo.png) no-repeat center;
+	background-position: 60px 15px;
+}
+.nav .nav-c .num{
+	position: absolute;
+	left: 110px;
+	bottom: 14px;
+}
+.nav .nav-c .nav-ul{
+	position: absolute;
+	right:0;
+	top: 0;
+}
+.nav-c .nav-ul .nav-items{
+	position: relative;
+	float: left;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	margin-left: 80px;
+}
+.nav-ul .nav-items:hover{
+	font-weight: bolder;
+}
+.line{
+	display: none;
+	position: absolute;
+	left: 8px;
+	bottom: 25px;
+	width: 4em;
+	height: 1px;
+	background-color: #b9ab77;
+}
+.nav-ul .nav-items:hover .line{
+	display: block;
+	color: #b9ab77;
+}
+.nav-c .nav-ul .nav-items.active{
+	color: #1d1d1d;
+	font-weight: bolder;
+}
+.nav-ul .nav-items.active .line{
+	display: block;
+}
+.nav-ul .nav-items .nav-a{
+	font-size: 16px;
+	color: #666666;
+}
+/*中间图片*/
+.contact{
+	background-color: #F5F5F5;
+}
+.contact .con-c{
+	width: 1200px;
+	height: 1298px;
+	margin: 0 auto;
+	/*margin-top: 100px;*/
+}
+.contact .con-c .con-img{
+	float: left;
+	width: 709px;
+	height: 474px;
+	margin-top: 100px;
+	background: url(../img/bg1.png) no-repeat center;
+    margin-right: 74px;
+}
+.contact .img-text{
+	float: left;
+	width: 416px;
+	height: 367px;
+	margin-top: 100px;
+}
+.contact .img-text span{
+	display: block;
+	width: 416px;
+}
+.contact .img-text .text-name{
+	position: relative;
+	color: #2a2a2a;
+	height: 70px;
+	font-size: 30px;
+	border-left: 1px solid #2a2a2a;
+}
+.contact .img-text .img-e{
+	position: absolute;
+	left: 100px;
+	bottom: 5px;
+	color: #4c4c4c;
+	height: 20px;
+	font-size: 14px;
+}
+.contact .img-text .img-price{
+	font-size: 14px;
+	color: #cacaca;
+	/*text-align: center;*/
+	padding-left: 110px;
+	margin-top: 20px;
+}
+.contact .img-text .img-color{
+	font-size: 14px;
+	color: #cacaca;
+	padding-left: 70px;
+	margin-bottom: 20px;
+}
+.contact .img-text .img-int{
+	font-size: 12px;
+	color: #cacaca;
+	margin-bottom: 50px;
+}
+.contact .img-text .order{
+	display: block;
+	width: 152px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	color: #2a2a2a;
+	padding-left: 60px;
+}
+.contact .con-c .con-img.other{
+	background:url(../img/bg2.png) no-repeat center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.con-c .con-int{
+	float: left;
+	width: 710px;
+	height: 150px;
+	/*background-color: pink;*/
+}
+.contact .con-int .int-text{
+	font-size: 14px;
+	color: #6a6a6a;
+}
+.contact .con-int .size{
+	display: block;
+	font-size: 16px;
+	width: 710px;
+	margin-top: 20px;
+}
+.contact .con-int .color{
+	display: block;
+	margin-top: 5px;
+}
+/*底部横向排列图片css*/
+.foot{
+	width: 100%;
+	/*height: px;*/
+	background-color: #dddddd;
+	overflow: hidden;
+}
+.foot .foot-c{
+	position: relative;
+	height: 420px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.foot-c .foot-new{
+	display: inline-block;
+	width: 40px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	background-color: #F7F5F5;
+	margin-right: 20px;
+}
+/*.foot-c .foot-new.other{
+	width: 40px;
+}*/
+.foot .foot-c .foot-ul{
+	margin-top: 40px;
+	width: 1200px;
+	height: 220px;
+}
+.foot .foot-c .foot-ul .foot-items{
+	float: left;
+	width: 212px;
+	height: 137px;
+	margin-right: 35px;
+}
+.foot-c .foot-ul .foot-items.mr0{
+	margin-right: 0;
+}
+.foot-c .foot-ul .foot-items .img1{
+	position: relative;
+	display: block;
+	height: 137px;
+	background: url(../img/pro-1.png) no-repeat center;
+}
+.foot-c .foot-new:hover{
+	background-color: #B9AB77;
+	color: #ffffff;
+	cursor: pointer;
+}
+.img1-text{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 60px;
+	width: 212px;
+	/*width: 200px;*/
+	background-color: #B1BCC0;
+	opacity: 0.5;
+}
+.img1-text .line1{
+	display: block;
+	margin-top: 15px;
+	padding-left: 10px;
+	color: #F3F3F3;
+	width: 202px;
+	font-size: 12px;
+}
+.img1-text .line2{
+	display: block;
+	/*margin-top: 15px;*/
+	padding-left: 10px;
+	color: #F3F3F3;
+	width: 202px;
+	font-size: 12px;
+}
+.foot-c .foot-ul .foot-items .img2{
+	display: block;
+	height: 137px;
+	background: url(../img/pro-2.png) no-repeat center;
+}
+.foot-c .foot-ul .foot-items .img3{
+	display: block;
+	height: 137px;
+	background: url(../img/pro-3.png) no-repeat center;
+}
+.foot-c .foot-ul .foot-items .img4{
+	display: block;
+	height: 137px;
+	background: url(../img/pro-4.png) no-repeat center;
+}
+.foot-c .foot-ul .foot-items .img5{
+	display: block;
+	height: 137px;
+	background: url(../img/pro-5.png) no-repeat center;
+}
+.foot-c .left{
+	position: absolute;
+	left: -60px;
+	top: 110px;
+	width: 32px;
+	height: 50px;
+	background :url(../../wedding/img/arrow-left.png) no-repeat center;
+	background-color: #d4d3d7;
+	cursor: pointer;
+}
+.foot-c .right{
+	position: absolute;
+	right: -60px;
+	top: 110px;
+	width: 32px;
+	height: 50px;
+	background :url(../../wedding/img/arrow-right.png) no-repeat center;
+	background-color: #d4d3d7;
+	cursor: pointer;
+}
+.foot-c .left:hover{
+	background-color: #B9AB77;
+}
+.foot-c .right:hover{
+	background-color: #B9AB77;
+}
+.foot .foot-c .foot-more{
+	position: absolute;
+	left: 525px;
+	top: 300px;
+	width: 150px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	color: #BBBABA;
+	border: 1px solid #BBBABA;
+}
+.foot .foot-c .foot-more:hover{
+	border: 1px solid #BAAC79;
+	color: #BAAC79;
+}
+/*底部*/
+.bot{
+	height: 100px;
+	background-color: #4D4D4D;
+}
+.bot-c{
+	position: relative;
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+}
+.bot-c .bot-id1{
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 400px;
+	font-size: 12px;
+	color: #F3F3F3;
+}
+.bot-c .bot-id2{
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+	width: 400px;
+	font-size: 12px;
+	color: #F3F3F3;
+}
+.bot-c .bot-last{
+	float: right;
+	height: 100px;
+	width: 340px;
+	/*background-color: pink;*/
+	line-height: 100px;
+}
+.bot-c .bot-last .bot-items{
+	margin-right: 40px;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #F3F3F3;
+}
+.bot-c .bot-last .bot-items.mr0{
+	margin-right: 0px;
+}
